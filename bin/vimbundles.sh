@@ -57,5 +57,6 @@ get_bundle jgdavey vim-railscasts
 # get_bundle jgdavey vim-turbux
 get_bundle jgdavey vim-weefactor
 get_bundle gregsexton gitv
+get_bundle myusuf3 numbers.vim
 
 vim -c 'call pathogen#helptags()|q'
