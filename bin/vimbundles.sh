@@ -59,7 +59,8 @@ get_bundle jgdavey vim-weefactor
 get_bundle gregsexton gitv
 get_bundle myusuf3 numbers.vim
 get_bundle godlygeek csapprox
-get_bundle msanders snipmate.vim
-get_bundle rcyrus snipmate-snippets-rubymotion
+# get_bundle msanders snipmate.vim
+# get_bundle rcyrus snipmate-snippets-rubymotion
+get_bundle ervandew supertab
 
 vim -c 'call pathogen#helptags()|q'
