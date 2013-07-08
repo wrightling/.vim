@@ -34,3 +34,5 @@ set directory^=~/.vim/_temp// " where to put swap files.
 
 let g:rubycomplete_buffer_loading = 1
 let g:rubycomplete_rails = 1
+
+:nnoremap <leader>m :silent !open -a Marked.app '%:p'<cr>
