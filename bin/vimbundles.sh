@@ -63,5 +63,6 @@ get_bundle godlygeek csapprox
 # get_bundle rcyrus snipmate-snippets-rubymotion
 get_bundle ervandew supertab
 get_bundle elixir-lang vim-elixir
+get_bundle groenewege vim-less
 
 vim -c 'call pathogen#helptags()|q'
