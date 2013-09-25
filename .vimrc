@@ -38,3 +38,21 @@ let g:rubycomplete_rails = 1
 :nnoremap <leader>m :silent !open -a Marked.app '%:p'<cr>
 
 inoremap kj <ESC>
+
+""
+"" Additions from Hashrocket's Rock@VIM workshop
+""
+
+set visualbell
+
+set wildmenu
+set wildmode=list:longest,full
+
+set splitright
+set splitbelow
+
+set hidden
+
+set guifont=Monaco:h16
+set guioptions-=T guioptions-=e guioptions-=L guioptions-=r
+set shell=bash
