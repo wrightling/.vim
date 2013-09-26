@@ -13,6 +13,8 @@ set expandtab " use spaces, not tabs
 set list " Show invisible characters
 set backspace=indent,eol,start " backspace through everything in insert mode
 
+set number
+
 " Disable output and VCS files
 set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
 
@@ -53,6 +55,10 @@ set splitbelow
 
 set hidden
 
-set guifont=Monaco:h16
+set guifont=Monaco:h12
 set guioptions-=T guioptions-=e guioptions-=L guioptions-=r
-set shell=bash
+set shell=zsh
+
+" if filereadable(expand('~/.vimrc.local'))
+"   source ~/.vimrc.local
+" endif
