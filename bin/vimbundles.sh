@@ -66,5 +66,6 @@ get_bundle elixir-lang vim-elixir
 get_bundle groenewege vim-less
 get_bundle rondale-sc vim-spacejam
 get_bundle heartsentwined vim-emblem
+get_bundle rking ag.vim
 
 vim -c 'call pathogen#helptags()|q'
