@@ -68,5 +68,6 @@ get_bundle rondale-sc vim-spacejam
 get_bundle heartsentwined vim-emblem
 get_bundle rking ag.vim
 get_bundle vim-scripts VimClojure
+get_bundle mattn gist-vim
 
 vim -c 'call pathogen#helptags()|q'
