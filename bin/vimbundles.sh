@@ -69,5 +69,6 @@ get_bundle heartsentwined vim-emblem
 get_bundle rking ag.vim
 get_bundle vim-scripts VimClojure
 get_bundle mattn gist-vim
+get_bundle lepture vim-velocity
 
 vim -c 'call pathogen#helptags()|q'
