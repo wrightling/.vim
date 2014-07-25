@@ -71,5 +71,6 @@ get_bundle vim-scripts VimClojure
 get_bundle mattn gist-vim
 get_bundle lepture vim-velocity
 get_bundle rizzatti dash.vim
+get_bundle mustache vim-mustache-handlebars
 
 vim -c 'call pathogen#helptags()|q'
