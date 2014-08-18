@@ -69,6 +69,7 @@ get_bundle heartsentwined vim-emblem
 get_bundle rking ag.vim
 get_bundle vim-scripts VimClojure
 get_bundle mattn gist-vim
+get_bundle mattn webapi-vim
 get_bundle lepture vim-velocity
 get_bundle rizzatti dash.vim
 get_bundle mustache vim-mustache-handlebars
