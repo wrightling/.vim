@@ -72,3 +72,5 @@ endif
 " gist-vim settings
 let g:gist_clip_command = 'pbcopy'
 let g:gist_get_multiplefile = 1
+
+map ,t :!bundler exec rspec --format doc --tag focus<cr>
