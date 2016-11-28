@@ -75,6 +75,7 @@ let g:gist_get_multiplefile = 1
 
 map ,t :!bundler exec rspec --format doc --tag focus<cr>
 map ,c :exe "!bundler exec rspec --format doc --line " . line(".") @%<cr>
+map ,x :!mix test<cr>
 
 set encoding=utf-8
 
