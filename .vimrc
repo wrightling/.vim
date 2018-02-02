@@ -77,6 +77,8 @@ map ,t :!bundler exec rspec --format doc --tag focus<cr>
 map ,c :exe "!bundler exec rspec --format doc --line " . line(".") @%<cr>
 map ,x :!mix test<cr>
 
+let g:pymode_python = 'python3'
+
 set encoding=utf-8
 
 " The Silver Searcher
