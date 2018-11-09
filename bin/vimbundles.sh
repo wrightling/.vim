@@ -74,5 +74,6 @@ get_bundle lepture vim-velocity
 get_bundle rizzatti dash.vim
 get_bundle mustache vim-mustache-handlebars
 get_bundle python-mode python-mode
+get_bundle zxqfl tabnine-vim
 
 vim -c 'call pathogen#helptags()|q'
