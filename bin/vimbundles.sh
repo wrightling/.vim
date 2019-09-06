@@ -75,5 +75,6 @@ get_bundle rizzatti dash.vim
 get_bundle mustache vim-mustache-handlebars
 get_bundle python-mode python-mode
 get_bundle zxqfl tabnine-vim
+get_bundle ctrlpvim ctrlp.vim
 
 vim -c 'call pathogen#helptags()|q'
