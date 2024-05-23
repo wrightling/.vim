@@ -59,8 +59,6 @@ get_bundle jgdavey vim-weefactor
 get_bundle gregsexton gitv
 get_bundle myusuf3 numbers.vim
 get_bundle godlygeek csapprox
-# get_bundle msanders snipmate.vim
-# get_bundle rcyrus snipmate-snippets-rubymotion
 get_bundle ervandew supertab
 get_bundle elixir-lang vim-elixir
 get_bundle groenewege vim-less
@@ -73,8 +71,6 @@ get_bundle mattn webapi-vim
 get_bundle lepture vim-velocity
 get_bundle rizzatti dash.vim
 get_bundle mustache vim-mustache-handlebars
-get_bundle python-mode python-mode
-get_bundle zxqfl tabnine-vim
 get_bundle ctrlpvim ctrlp.vim
 
 vim -c 'call pathogen#helptags()|q'
